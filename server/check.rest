@@ -1,0 +1,18 @@
+GET http://localhost:3000/tasks
+
+###
+
+
+POST http://localhost:3000/tasks
+Content-Type: application/json 
+
+{
+    "title": "Go to the mall"
+}
+
+###  
+
+DELETE http://localhost:3000/tasks/654cfc86c43d3241c31403cc
+
+###
+PUT http://localhost:3000/tasks/654cfc7ec43d3241c31403ca
